@@ -39,5 +39,11 @@ export default ({ env }) => ({
         quality: 70,
       },
     },
+    placeholder: {
+        enabled: true,
+        config: {
+          size: 10,
+        },
+      },
     // ...
   });
